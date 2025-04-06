@@ -1,16 +1,27 @@
-# Node dependencies
-node_modules/
+# Java/Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
 
-# VSCode settings
-.vscode/
-
-# Build and dist folders
-dist/
-build/
-
-# Logs
+# Spring Boot
 *.log
 
-# OS-specific files
+# React frontend
+/frontend/node_modules/
+/frontend/build/
+/frontend/.env
+
+# VSCode and IDEs
+.vscode/
+.idea/
+*.iml
+
+# OS files
 .DS_Store
 Thumbs.db
+
+# Misc
+.env
+*.swp
