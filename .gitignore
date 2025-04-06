@@ -1,0 +1,16 @@
+# Node dependencies
+node_modules/
+
+# VSCode settings
+.vscode/
+
+# Build and dist folders
+dist/
+build/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
