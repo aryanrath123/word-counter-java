@@ -1,9 +1,9 @@
 services:
   - type: web
     name: word-counter
-    env: java
-    rootDir: backend
-    buildCommand: ./mvnw clean install
-    startCommand: java -jar target/*.jar
+    env: docker
+    repo: https://github.com/aryanrath123/word-counter-java
     branch: main
+    dockerfilePath: backend/Dockerfile
+    rootDir: backend
     autoDeploy: true
